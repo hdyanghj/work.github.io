@@ -271,7 +271,7 @@ html {
     bottom: 0;
     right: 0;
     background: rgba(62,58,57,.96);
-    z-index: 999;
+    z-index: 998;
     overflow: hidden;
     display: none;
 }
