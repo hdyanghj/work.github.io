@@ -103,12 +103,11 @@
 .business-cont .business_list{
     width: 6.8rem;
     overflow: hidden;
-    padding: 0.35rem;
-    padding-top: 0;
+    padding:0 0.35rem;
 }
 .business-cont .business_list li{
     padding: 0.2rem;
-    margin: 0.15rem 0;
+    margin-bottom: 0.3rem;
     border-radius: 0.2rem;
     overflow: hidden;
     background: #FFF;
@@ -167,7 +166,16 @@
     line-height: 0.38rem;
 }
 
-
+/*主营业务*/
+.product-cont{
+    width: 100%;
+    overflow: hidden;
+    background: #FFF;
+    -webkit-animation: fadeInUp .8s 0s ease-in-out;
+    -moz-animation: fadeInUp .8s 0s ease-in-out;
+    -ms-animation: fadeInUp .8s 0s ease-in-out;
+    animation: fadeInUp .8s 0s ease-in-out;
+}
 
 
 
