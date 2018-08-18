@@ -39,6 +39,7 @@
             $('.nav_cont').removeClass('nav-show');
             $('#hideNavCont').addClass('nav-hide');
             $('#hideNavCont').removeClass('nav-show');
+            $('.nav_btn_icon').removeClass('cur');
         });
     });
     var panDuan=function(){
