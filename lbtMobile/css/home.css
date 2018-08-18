@@ -9,7 +9,7 @@
 /*焦点图*/
 .banner-swiper{
     width: 100%;
-    padding-top: 1.16rem ; 
+    padding-top: 0.8rem ; 
 }
 .banner-swiper .swiper-container {
       width: 100%;
@@ -121,7 +121,6 @@
     font-size: .38rem;
     vertical-align: text-top;
     display: inline-block;
-    margin-top: 0.01rem;
 }
 .business-cont .business_list li h1 span{
     float: right;
@@ -130,7 +129,8 @@
 }
 .business-cont .business_list li h1 b{
     width: 1px;
-    height: 0.3rem;
+    height: 0.28rem;
+    margin-top: -0.03rem;
     display: inline-block;
     vertical-align: middle;
     margin-right: 0.15rem;
