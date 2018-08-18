@@ -400,6 +400,11 @@ html {
     font-size: 0.26666667rem;
     vertical-align: bottom;
 }
+.footer_cont ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 .footer_cont ul li .footer-icon{
     font-size: 0.54rem;
 }
