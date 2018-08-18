@@ -23,6 +23,8 @@
                 $('#hideNavCont').addClass('nav-show');
                 $('#hideNavCont').removeClass('nav-hide');
                 $('.nav_btn_icon').addClass('cur');
+                //使网页不可滚动
+                $('html,body').addClass('ovfHiden');
 
             }else{
                 $('.nav_cont').addClass('nav-hide');
@@ -30,6 +32,8 @@
                 $('#hideNavCont').addClass('nav-hide');
                 $('#hideNavCont').removeClass('nav-show');
                 $('.nav_btn_icon').removeClass('cur');
+                //使网页恢复可滚
+                $('html,body').removeClass('ovfHiden');
 
             }
         });
@@ -41,7 +45,14 @@
             $('#hideNavCont').removeClass('nav-show');
             $('.nav_btn_icon').removeClass('cur');
         });
+
+
+
+
     });
+
+
+
     var panDuan=function(){
     	$("html").css("font-size", document.documentElement.clientWidth / 375 * 312.5 + "%");
     }
