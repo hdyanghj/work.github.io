@@ -199,6 +199,7 @@ html {
     overflow: hidden;
     height: 1.16rem;
     position: relative;
+    z-index: 999;
     background: #1b1b1b;
     -webkit-animation: fadeInUp .8s 0s ease-in-out;
     -moz-animation: fadeInUp .8s 0s ease-in-out;
