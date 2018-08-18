@@ -177,9 +177,7 @@ html {
     animation: fadeOutRight .5s 0s ease-in-out both;
 }
 
-
-/*导航按钮部分*/
-.nav_btn{
+.shenqi1{
     display: box;
     display: -webkit-box;
     display: -moz-box;
@@ -196,6 +194,25 @@ html {
     -moz-box-pack: justify;
     box-pack: justify;
     flex-pack: justify;
+}
+.shenqi2{
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+}
+/*导航按钮部分*/
+.nav_btn{
     width: 100%;
     overflow: hidden;
     height: 1rem;
@@ -214,20 +231,6 @@ html {
 }
 /*菜单按钮*/
 .nav_btn .nav_btn_icon{
-    display: box;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    justify-content: space-between;
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    box-pack: justify;
     position: absolute;
     right: 0;
     width: .4rem;
@@ -396,7 +399,7 @@ html {
 }
 .tiele-cont h2 span i{
     width: 1px;
-    height: 0.36rem;
+    height: 0.34rem;
     left: -0.16rem;
     top: -0.04rem;
     position: absolute;
