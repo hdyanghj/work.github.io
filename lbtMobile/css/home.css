@@ -118,9 +118,6 @@
 }
 .business-cont .business_list li h1 i{
     margin-right: 0.15rem;
-    font-size: .38rem;
-    vertical-align: text-top;
-    display: inline-block;
 }
 .business-cont .business_list li h1 span{
     float: right;
@@ -179,8 +176,7 @@
 }
 .product-cont .product_tab a{
     width: 20%;
-    height: .58rem;
-    line-height: .6rem;
+    padding: .12rem 0;
     text-align: center;
 }
 .product-cont .product_tab .hover_tab{
@@ -206,10 +202,10 @@
     height: .7rem;
 }
 .product-cont .product_more a{
-    padding: 0 .16rem;
-    height: .6rem;
+    padding:.16rem;
+    height: .3rem;
     margin-right: .5rem;
-    line-height: .6rem;
+    line-height: .3rem;
     border-radius: .3rem;
     background: #efecf0;
     display: block;
