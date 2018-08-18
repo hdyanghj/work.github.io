@@ -142,16 +142,22 @@
     background: #3e5c93;
 }
 .business-cont .business_list li:nth-of-type(2) h1{
-    color: #459d53;
-}
-.business-cont .business_list li:nth-of-type(2) h1 b{
-    background: #459d53;
-}
-.business-cont .business_list li:nth-of-type(3) h1{
     color: #a53f39;
 }
-.business-cont .business_list li:nth-of-type(3) h1 b{
+.business-cont .business_list li:nth-of-type(2) h1 b{
     background: #a53f39;
+}
+.business-cont .business_list li:nth-of-type(3) h1{
+    color: #459d53;
+}
+.business-cont .business_list li:nth-of-type(3) h1 b{
+    background: #459d53;
+}
+.business-cont .business_list li:nth-of-type(4) h1{
+    color: #cf8e4e;
+}
+.business-cont .business_list li:nth-of-type(4) h1 b{
+    background: #cf8e4e;
 }
 .business-cont .business_list li p{
     padding-top: 0.1rem;
