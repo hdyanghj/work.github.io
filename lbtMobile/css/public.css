@@ -202,10 +202,6 @@ html {
     position: relative;
     z-index: 999;
     background: #1b1b1b;
-    -webkit-animation: fadeInUp .8s 0s ease-in-out;
-    -moz-animation: fadeInUp .8s 0s ease-in-out;
-    -ms-animation: fadeInUp .8s 0s ease-in-out;
-    animation: fadeInUp .8s 0s ease-in-out;
 }
 /*导航logo*/
 .nav_btn .nav_logo {
