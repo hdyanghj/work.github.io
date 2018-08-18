@@ -104,6 +104,7 @@
     width: 6.8rem;
     overflow: hidden;
     padding: 0.35rem;
+    padding-top: 0;
 }
 .business-cont .business_list li{
     padding: 0.2rem;
@@ -116,7 +117,55 @@
     -ms-box-shadow:2px 2px 4px #ccc;
     box-shadow:2px 2px 4px #ccc;
 }
+.business-cont .business_list li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
+.business-cont .business_list li h1{
+    height: 0.6rem;
+    border-bottom: 1px solid #CCC;
+    line-height: 0.48rem;
+    font-weight: normal;
+}
+.business-cont .business_list li h1 i{
+    margin-right: 0.15rem;
+}
+.business-cont .business_list li h1 span{
+    float: right;
+    font-weight: normal;
+    color: #898989;
+}
+.business-cont .business_list li h1 b{
+    width: 1px;
+    height: 0.3rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.15rem;
+}
+.business-cont .business_list li:nth-of-type(1) h1{
+    color: #3e5c93;
+}
+.business-cont .business_list li:nth-of-type(1) h1 b{
+    background: #3e5c93;
+}
+.business-cont .business_list li:nth-of-type(2) h1{
+    color: #459d53;
+}
+.business-cont .business_list li:nth-of-type(2) h1 b{
+    background: #459d53;
+}
+.business-cont .business_list li:nth-of-type(3) h1{
+    color: #a53f39;
+}
+.business-cont .business_list li:nth-of-type(4) h1 b{
+    background: #a53f39;
+}
+.business-cont .business_list li p{
+    padding-top: 0.1rem;
+    line-height: 0.38rem;
+}
 
 
 
