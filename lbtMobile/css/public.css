@@ -1,0 +1,421 @@
+/*Moblie初始化样式*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu {
+    margin: 0;
+    padding: 0
+}
+html,body,fieldset,img,iframe,abbr {
+    border: 0
+}
+li {
+    list-style: none
+}
+textarea {
+    overflow: auto;
+    resize: none
+}
+a,button {
+    cursor: pointer
+}
+h1,h2,h3,h4,h5,h6,em,strong,b {
+    font-weight: 700
+}
+a,a:hover {
+    text-decoration: none
+}
+body,html {
+    width: 100%;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif
+}
+body {
+    background: #FFF;
+    opacity: 1;
+    -webkit-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in
+}
+a {
+    text-decoration: none
+}
+input {
+    -webkit-appearance: none
+}
+* {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-focus-ring-color: rgba(0,0,0,0)
+}
+p,a,li,span,input {
+    font-size: .28rem
+}
+h1 {
+    font-size: .32rem
+}
+h2 {
+    font-size: .34rem
+}
+h3 {
+    font-size: .3rem
+}
+h4 {
+    font-weight: 400;
+    font-size: .3rem
+}
+h5 {
+    font-size: .28rem
+}
+textarea {
+    font-size: 24px
+}
+a {
+    color: #434343
+}
+img {
+    display: block
+}
+html {
+    font-size: 312.5%
+}
+@media screen and (max-width:359px) and (orientation:portrait) {
+    html {
+        font-size: 266.67%
+    }
+}
+@media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+    html {
+        font-size: 300%
+    }
+}
+
+@media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+    html {
+        font-size: 320%
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+    html {
+        font-size: 333.33%
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait) {
+    html {
+        font-size: 345%
+    }
+}
+
+@media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait) {
+    html {
+        font-size: 360%
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:639px) and (orientation:portrait) {
+    html {
+        font-size: 400%
+    }
+}
+
+@media screen and (min-width:640px) and (orientation:portrait) {
+    html {
+        font-size: 533.33%
+    }
+}
+
+/*************************************导航部分************************************************/
+
+/* nav */
+.public_nav {
+    width: 100%;
+    height: 1.16rem;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+/*下拉导航出现后空白区域透明背景*/
+#hideNavCont{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    z-index: 888;
+    background: rgba(0,0,0,.6);
+}
+/*下拉导航显示隐藏*/
+#hideNavCont.nav-show{
+    display: block;
+}
+#hideNavCont.nav-hide{
+    display: none;
+}
+.nav_cont.nav-show{
+    display: block;
+    -webkit-animation: bounceInLeft .5s 0s ease-in-out both;
+    -moz-animation: bounceInLeft .5s 0s ease-in-out both;
+    -ms-animation: bounceInLeft .5s 0s ease-in-out both;
+    animation: bounceInLeft .5s 0s ease-in-out both;
+}
+.nav_cont.nav-hide{
+    display: none;
+    -webkit-animation: fadeOutRight .5s 0s ease-in-out both;
+    -moz-animation: fadeOutRight .5s 0s ease-in-out both;
+    -ms-animation: fadeOutRight .5s 0s ease-in-out both;
+    animation: fadeOutRight .5s 0s ease-in-out both;
+}
+
+
+/*导航按钮部分*/
+.nav_btn{
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    flex-pack: justify;
+    width: 100%;
+    overflow: hidden;
+    height: 1.16rem;
+    position: relative;
+    background: #1b1b1b;
+    -webkit-animation: fadeInUp .8s 0s ease-in-out;
+    -moz-animation: fadeInUp .8s 0s ease-in-out;
+    -ms-animation: fadeInUp .8s 0s ease-in-out;
+    animation: fadeInUp .8s 0s ease-in-out;
+}
+/*导航logo*/
+.nav_btn .nav_logo {
+    background: url(../img/logo.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    width: 1.9rem;
+    height: 0.8rem;
+    display: block;
+    margin:0.08rem auto;
+}
+/*菜单按钮*/
+.nav_btn .nav_btn_icon{
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    width: .4rem;
+    height: .32rem;
+    margin-right: .3rem
+}
+/*菜单按钮条*/
+.nav_btn .nav_btn_icon i{
+    display: block;
+    background: #FFF;
+    width: .4rem;
+    height: .04rem;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+.nav_btn .nav_btn_icon.cur i:nth-of-type(1) {
+    -webkit-transform: rotate(45deg) translate(0.1rem,.1rem);
+    -moz-transform: rotate(45deg) translate(0.1rem,.1rem);
+    -ms-transform: rotate(45deg) translate(0.1rem,.1rem);
+    transform: rotate(45deg) translate(0.1rem,.1rem)
+}
+
+.nav_btn .nav_btn_icon.cur i:nth-of-type(2) {
+    display: none
+}
+
+.nav_btn .nav_btn_icon.cur i:nth-of-type(3) {
+    -webkit-transform: rotate(-45deg) translate(0.1rem,-.1rem);
+    -moz-transform: rotate(-45deg) translate(0.1rem,-.1rem);
+    -ms-transform: rotate(-45deg) translate(0.1rem,-.1rem);
+    transform: rotate(-45deg) translate(0.1rem,-.1rem)
+}
+/*导航下拉部分*/
+.nav_cont{
+    position: fixed;
+    width: 5.6rem;
+    left: 0;
+    top: 1.16rem;
+    bottom: 0;
+    right: 0;
+    background: rgba(62,58,57,.96);
+    z-index: 999;
+    overflow: hidden;
+    display: none;
+}
+/*导航列表*/
+.nav_cont .nav-list{
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #9f9d9c;
+}
+.nav_cont .nav-list a{
+    display: block;
+    overflow: hidden;
+    padding-left: 0.4rem;
+    line-height: 0.8rem;
+    max-height: 0.8rem;
+    color: #ABB1B7;
+}
+.nav_cont .nav-list a .nav-icon{
+    font-size: 0.45rem;
+    position: absolute;
+    margin-left: -1px;
+}
+.nav_cont .nav-list a span {
+    font-size: 0.3rem;
+    margin-left: 0.7rem;
+}
+/*箭头靠右*/
+.biticon-right{
+    float: right;
+    margin-right: 20px;
+    font-size: 0.25rem!important;
+    transition: transform .3s;
+}
+.nav-list.nav-show .biticon-right{
+    transform: rotate(90deg);
+}
+/*导航二级列表*/
+.nav_cont .nav-list .secondary_list{
+    overflow: hidden;
+}
+.nav-list .secondary_list li{
+    width: 4.8rem;
+    margin: 0 auto;
+    border-top: 1px dotted #9f9d9c;
+}
+
+.nav-list .secondary_list li span{
+     margin-left: 0.32rem;
+}
+.nav-list ul {
+    display: none;
+    background: rgba(0,0,0,.1);
+}
+.nav-list.nav-show .secondary_list{
+    display: block;
+}
+.nav_cont .nav-list>a:before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 2px;
+    height: 46px;
+    background: #FFF;
+    opacity: 0;
+    transition: all .3s;
+}
+
+
+.nicescroll-rails {
+    background-color: #434343 !important;
+    border: 1px solid #b3b3b3;
+    left:5.6rem !important;
+    
+}
+.nicescroll-cursors{
+    background-color: rgb(158, 158, 158)!important;
+    
+}
+#navCont::-webkit-scrollbar-track
+{ 
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#navCont::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#navCont::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #6b046b;
+    border: 1px solid rgba(255, 255, 255, 0.7) !important;
+}
+
+/******************************** 【 导航部分 END 】 ********************************************/
+
+
+
+/******************************** 【 导航部分 】 ************************************************/
+.footer_cont{
+    width: 7.5rem;
+    height: 1.16rem;
+    background: #1b1b1b;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+.footer_cont ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.footer_cont ul li{
+    width: 25%;
+    padding: 0.13rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.26666667rem;
+    vertical-align: bottom;
+}
+.footer_cont ul li .footer-icon{
+    font-size: 0.54rem;
+}
+.footer_cont ul li .footer-icon,.footer_cont ul li span{
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
