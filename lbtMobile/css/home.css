@@ -118,6 +118,10 @@
 }
 .business-cont .business_list li h1 i{
     margin-right: 0.15rem;
+    font-size: .38rem;
+    vertical-align: text-top;
+    display: inline-block;
+    margin-top: 0.02rem;
 }
 .business-cont .business_list li h1 span{
     float: right;
@@ -146,7 +150,7 @@
 .business-cont .business_list li:nth-of-type(3) h1{
     color: #a53f39;
 }
-.business-cont .business_list li:nth-of-type(4) h1 b{
+.business-cont .business_list li:nth-of-type(3) h1 b{
     background: #a53f39;
 }
 .business-cont .business_list li p{
