@@ -135,7 +135,6 @@ html {
 /* nav */
 .public_nav {
     width: 100%;
-    height: 1rem;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -439,8 +438,41 @@ html {
 .chengse{
     background: #cf8e4e;
 }
+/******************************** 【 焦点图 】 ************************************************/
+
+/*焦点图*/
+.banner-swiper{
+    width: 100%;
+    padding-top: 0.8rem ; 
+}
+.banner-swiper .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+.banner-swiper .swiper-container .swiper-slide img{
+    width: 100%;
+}
+.banner-swiper .swiper-pagination{
+    height:  0.28rem!important;
+    bottom: 0.28rem!important;
+    line-height:0rem!important;
+}
+.banner-swiper .swiper-pagination .swiper-pagination-bullet{
+    width: 0.18rem;
+    height: 0.18rem;
+    background: #FFF!important;
+    opacity: 1!important;
+    border: 1px solid #FFF;
+}
+.banner-swiper .swiper-pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    border-color: #f40101;
+}
+
+
+
 /******************************** 【 导航部分 】 ************************************************/
-.footer_cont{
+.footer_btn{
     width: 7.5rem;
     height: 1.16rem;
     background: #1b1b1b;
@@ -449,13 +481,13 @@ html {
     z-index: 1000;
     overflow: hidden;
 }
-.footer_cont ul{
+.footer_btn ul{
     width: 100%;
     height: 100%;
     overflow: hidden;
     display: flex;
 }
-.footer_cont ul li{
+.footer_btn ul li{
     width: 25%;
     padding: 0.13rem;
     display: -webkit-box;
@@ -473,18 +505,18 @@ html {
     font-size: 0.26666667rem;
     vertical-align: bottom;
 }
-.footer_cont ul li a{
+.footer_btn ul li a{
     width: 100%;
     height: 100%;
     display: block;
 }
-.footer_cont ul li p{
+.footer_btn ul li p{
     height: .5rem
 }
-.footer_cont ul li .footer-icon{
+.footer_btn ul li .footer-icon{
     font-size: 0.54rem;
 }
-.footer_cont ul li .footer-icon,.footer_cont ul li span{
+.footer_btn ul li .footer-icon,.footer_btn ul li span{
     color: #FFF;
 }
 

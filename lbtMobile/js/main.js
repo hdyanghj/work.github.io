@@ -44,6 +44,8 @@
             $('#hideNavCont').addClass('nav-hide');
             $('#hideNavCont').removeClass('nav-show');
             $('.nav_btn_icon').removeClass('cur');
+            //使网页恢复可滚
+            $('html,body').removeClass('ovfHiden');
         });
 
 
