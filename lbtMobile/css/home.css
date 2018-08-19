@@ -157,8 +157,14 @@
     background: #cf8e4e;
 }
 .business-cont .business_list li p{
+    height: .8rem;
     padding-top: 0.1rem;
     line-height: 0.38rem;
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    overflow: hidden; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2;
 }
 
 /*主营业务*/
@@ -305,6 +311,21 @@
     white-space: nowrap;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
+}
+/*新闻资讯*/
+.contact-cont{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: .38rem;
+    background: #FFF;
+}
+.content_text{
+    width: 100%;
+}
+.content_text p{
+    text-align: center;
+    font-size: .26rem;
+    line-height: .5rem;
 }
 
 
