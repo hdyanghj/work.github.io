@@ -157,7 +157,7 @@
     background: #cf8e4e;
 }
 .business-cont .business_list li p{
-    height: .8rem;
+    height: .75rem;
     padding-top: 0.1rem;
     line-height: 0.38rem;
     text-overflow: ellipsis; 
