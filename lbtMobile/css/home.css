@@ -163,14 +163,14 @@
 }
 .product-cont .product_tab{
     width: 100%;
-    height: .6rem;
+    height: .8rem;
     border:1px solid #CCC;
     border-left: 0;
     border-right: 0;
 }
 .product-cont .product_tab a{
     width: 20%;
-    padding: .12rem 0;
+    padding: .22rem 0;
     text-align: center;
 }
 .product-cont .product_tab .hover_tab{
@@ -239,16 +239,6 @@
     background: #efefef;
 }
 
-.news-cont .product_tab a.rightB:after{
-    content: "";
-    width: .02rem;
-    height: .26rem;
-    top: .18rem;
-    right: 0;
-    background: #CCC;
-    position: absolute;
-    display: block;
-}
 .news-cont .news_list{
     width: 6.78rem;
     padding:0 .36rem ;
@@ -395,20 +385,31 @@ left: -.6rem;
 
 .news-cont .product_tab{
     width: 100%;
-    height: .6rem;
+    height: .8rem;
     border:1px solid #CCC;
     border-left: 0;
     border-right: 0;
 }
 .news-cont .product_tab a{
     width: 20%;
-    padding: .12rem 0;
+    padding: .22rem 0;
     text-align: center;
     position: relative;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
+}
+
+.rightB:after{
+    content: "";
+    width: .02rem;
+    height: .26rem;
+    top: .28rem;
+    right: 0;
+    background: #CCC;
+    position: absolute;
+    display: block;
 }
 .news-cont .product_tab .hover_tab,.news-cont .product_tab a:hover{
     color: #a53f39;
