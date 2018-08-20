@@ -1,3 +1,8 @@
+    wow = new WOW({
+    　　animateClass: 'animated',
+    });
+    wow.init();
+
     // 导航
     $(function(){
         // nav收缩展开

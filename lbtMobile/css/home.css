@@ -307,10 +307,9 @@
     -o-transform:rotate(45deg);
 }
 .news_text{
-    width: 4.92rem;
+    overflow: hidden;
     padding: .14rem;
     padding-right: 0;
-    float: left;
 }
 .news_text h1{
     font-weight: 530;
@@ -438,3 +437,4 @@ left: -.6rem;
     color: #FFF;
     background: #cf0f32;
 }
+/*品质服务*/
