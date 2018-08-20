@@ -155,7 +155,7 @@
     -webkit-line-clamp: 2;
 }
 
-/*主营业务*/
+/*特色产品*/
 .product-cont{
     width: 100%;
     overflow: hidden;
@@ -237,6 +237,17 @@
     overflow: hidden;
     padding-bottom: .18rem;
     background: #efefef;
+}
+
+.news-cont .product_tab a.rightB:after{
+    content: "";
+    width: .02rem;
+    height: .26rem;
+    top: .18rem;
+    right: 0;
+    background: #CCC;
+    position: absolute;
+    display: block;
 }
 .news-cont .news_list{
     width: 6.78rem;
@@ -348,3 +359,81 @@
 }
 
 
+
+/*新闻列表页*/
+.news_title{
+    width: 100%;
+    background: #efefef;
+    text-align: center;
+    height: .4rem;
+    overflow: hidden;
+    padding: .2rem 0;
+}
+.news_title h3{
+    width: auto;
+    height: .4rem;
+    padding: 0 .2rem;
+    display: inline-block!important;
+    display: inline;
+    font-size: .34rem;
+    font-weight: normal;
+    vertical-align: top;
+    position: relative;
+}
+.newsTitleLt,.newsTitleGt{
+    width: .6rem;
+    top: .1rem;
+    position: absolute;
+    display: block;
+}
+.newsTitleLt{
+left: -.6rem;
+}
+.newsTitleGt{
+    right: -.6rem;
+}
+
+.news-cont .product_tab{
+    width: 100%;
+    height: .6rem;
+    border:1px solid #CCC;
+    border-left: 0;
+    border-right: 0;
+}
+.news-cont .product_tab a{
+    width: 20%;
+    padding: .12rem 0;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.news-cont .product_tab .hover_tab,.news-cont .product_tab a:hover{
+    color: #a53f39;
+    border-bottom: 0.02rem solid #a53f39;
+}
+.newsCont_list{
+    padding-top: .26rem!important;
+}
+.load_more{
+    width: 100%;
+    padding: .2rem 0;
+    text-align: center;
+}
+.load_more a{
+    padding: .2rem .4rem;
+    border-radius: .12rem;
+    background: #efecf0;
+    display: inline-block!important;
+    display: inline;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.load_more a:hover{
+    color: #FFF;
+    background: #cf0f32;
+}

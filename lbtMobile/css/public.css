@@ -228,6 +228,24 @@ html {
     display: block;
     margin:0.15rem auto;
 }
+/*导航返回上一页*/
+.nav-return{
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: 0 .2rem;
+}
+.nav-return i{
+    color: #FFF;
+    font-size: .5rem!important;
+}
+/*导航标题*/
+.nav_title{
+    font-size: .38rem;
+    font-weight: normal;
+    color: #FFF;
+    margin:0.15rem auto;
+}
 /*菜单按钮*/
 .nav_btn .nav_btn_icon{
     position: absolute;
@@ -421,22 +439,41 @@ html {
 
 /*背景颜色*/
 .baise{
-    background: #FFF;
+    background: #FFF!important;
 }
 .huise{
-    background: #efefef;
+    background: #efefef!important;
 }
 .lanse{
-    background: #3395e1;
+    background: #3395e1!important;
 }
 .fense{
-    background: #d05e4f;
+    background: #d05e4f!important;
 }
 .lvse{
-    background: #51b444;
+    background: #51b444!important;
 }
 .chengse{
-    background: #cf8e4e;
+    background: #cf8e4e!important;
+}
+/*字体颜色*/
+.baiseColor{
+    color: #FFF!important;
+}
+.huiseColor{
+    color: #efefef!important;
+}
+.lanseColor{
+    color: #3395e1!important;
+}
+.fenseColor{
+    color: #d05e4f!important;
+}
+.lvseColor{
+    color: #51b444!important;
+}
+.chengseColor{
+    color: #cf8e4e!important;
 }
 /******************************** 【 焦点图 】 ************************************************/
 
