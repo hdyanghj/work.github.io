@@ -248,8 +248,6 @@ html {
 }
 /*菜单按钮*/
 .nav_btn .nav_btn_icon{
-    position: absolute;
-    right: 0;
     width: .4rem;
     height: .32rem;
     margin-right: .3rem
@@ -478,9 +476,14 @@ html {
 /******************************** 【 焦点图 】 ************************************************/
 
 /*焦点图*/
+.banner-bgimg{
+    width: 100%;
+    padding-top: 1rem; 
+}
+/*焦点图*/
 .banner-swiper{
     width: 100%;
-    padding-top: 1rem ; 
+    padding-top: 1rem; 
 }
 .banner-swiper .swiper-container {
       width: 100%;

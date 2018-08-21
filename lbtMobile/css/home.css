@@ -438,3 +438,80 @@ left: -.6rem;
     background: #cf0f32;
 }
 /*品质服务*/
+#bBgimg{
+    height: 2.4rem;
+    background: url(../img/qs_bg.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+
+.qs_list{
+    width: 6.78rem;
+    padding:.36rem ;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.qs_list li{
+    width: 6.42rem;
+    padding: .18rem;
+    border-radius: .1rem;
+    background: #FFF;
+    overflow: hidden;
+    margin-bottom: .3rem;
+    -moz-box-shadow:0px 0px 4px #bfd8f1;
+    -webkit-box-shadow:0px 0px 4px #bfd8f1;
+    -ms-box-shadow:0px 0px 4px #bfd8f1;
+    box-shadow:0px 0px 4px #bfd8f1;
+}
+.qs_list li:hover{
+    -moz-box-shadow:0px 0px 10px #bfd8f1;
+    -webkit-box-shadow:0px 0px 10px #bfd8f1;
+    -ms-box-shadow:0px 0px 10px #bfd8f1;
+    box-shadow:0px 0px 10px #bfd8f1;    
+}
+.qs_list li .qsimg_cont{
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: .18rem;
+    line-height: 1.3rem;
+    float: left;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.qs_list li .qsimg_cont i{
+    font-size: 1.18rem;
+    color: #2e67d3;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(121, 167, 241, 1)), to(rgba(12, 59, 165, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.qs_text{
+    overflow: hidden;
+    padding:0 .14rem 0 0;
+    padding-right: 0;
+}
+.qs_text h1{
+    font-weight: 530;
+    padding-bottom: .1rem;
+    color: #000;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.qs_text p{
+    padding-top: .04rem;
+    line-height: .30rem;
+    font-size: .24rem;
+    color: #434343;
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    overflow: hidden; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3;
+}
