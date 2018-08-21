@@ -812,12 +812,12 @@ left: -.6rem;
     height: 5rem;
 }
 #baiduMap .baiduMap_title{
-    line-height: 32px;
-    font-size: 14px;
+    line-height: .4rem;
+    font-size: .18rem;
     font-weight: bold;
 }
 
 #baiduMap .baiduMap_text{
-    line-height: 32px;
-    font-size: 14px;
+    line-height: .3rem;
+    font-size: .14rem;
 }
