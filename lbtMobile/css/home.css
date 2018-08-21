@@ -376,8 +376,18 @@
     width: 6.78rem;
     height: .8rem;
     line-height: .8rem;
-    background: #3e3a39;
+    font-size: .32rem
+    background: #efecf0;
+    color: #000;
     cursor:pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.message_board .mb_div button:hover{
+    color: #FFF;
+    background: #cf0f32;
 }
 .mynamel,.myphonel{
     height: .8rem;
