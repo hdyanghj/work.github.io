@@ -18,7 +18,7 @@
 }
 .sort-cont ul li{
     width: 25%;
-    padding: 0.4rem 0;
+    padding:0 0 0.4rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -331,6 +331,70 @@
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
 }
+
+/*留言板*/
+.liuyanban{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: .38rem;
+    background: #FFF;
+
+}
+.message_board{
+    width: 6.78rem;
+    padding:0 .36rem ;
+    overflow: hidden;
+}
+.message_board .mb_div{
+    width: 6.78rem;
+    margin-bottom: .24rem;
+    position: relative;
+}
+.message_board .mb_div input,.message_board .mb_div textarea,.message_board .mb_div button{
+    background: none;
+    font-size: .28rem;
+    border-radius: 10px;
+    color: #EEE;
+    outline: 0 none;
+    border: 1px solid #AAA;
+}
+.message_board .mb_div input{
+    width: 5.78rem;
+    padding-left: 1rem;
+    height: .8rem;
+    line-height: 1rem;
+    
+}
+.message_board .mb_div textarea{
+    width: 6.38rem;
+    height: 2rem;
+    padding: .2rem;
+    font-size: .32rem;
+    overflow: hidden;
+}
+.message_board .mb_div button{
+    width: 6.78rem;
+    height: .8rem;
+    line-height: .8rem;
+    background: #3e3a39;
+    cursor:pointer;
+}
+.mynamel,.myphonel{
+    height: .8rem;
+    line-height: .8rem;
+    position: absolute;
+    top: 0;
+    left: .18rem;
+    color: #000;
+    font-size: .34rem;
+}
+.clear {
+  clear: both;
+  }
+.banner_main,.business,.product,.sell_div,.cooperation,.certificate{
+    overflow: hidden;
+}
+
 /*新闻资讯*/
 .contact-cont{
     width: 100%;
