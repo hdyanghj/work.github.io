@@ -813,11 +813,11 @@ left: -.6rem;
 }
 #baiduMap .baiduMap_title{
     line-height: .4rem;
-    font-size: .18rem;
+    font-size: .20rem;
     font-weight: bold;
 }
 
 #baiduMap .baiduMap_text{
     line-height: .3rem;
-    font-size: .14rem;
+    font-size: .18rem;
 }
