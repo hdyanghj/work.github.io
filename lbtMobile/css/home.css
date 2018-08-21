@@ -354,15 +354,15 @@
     background: none;
     font-size: .28rem;
     border-radius: 10px;
-    color: #EEE;
+    color: #000;
     outline: 0 none;
     border: 1px solid #AAA;
 }
 .message_board .mb_div input{
     width: 5.78rem;
     padding-left: 1rem;
-    height: .8rem;
-    line-height: 1rem;
+    height: 1rem;
+    line-height: 12em;
     
 }
 .message_board .mb_div textarea{
@@ -374,8 +374,8 @@
 }
 .message_board .mb_div button{
     width: 6.78rem;
-    height: .8rem;
-    line-height: .8rem;
+    height: 1rem;
+    line-height: 1rem;
     font-size: .32rem
     background: #efecf0;
     color: #000;
@@ -390,8 +390,8 @@
     background: #cf0f32;
 }
 .mynamel,.myphonel{
-    height: .8rem;
-    line-height: .8rem;
+    height: 1rem;
+    line-height: 1rem;
     position: absolute;
     top: 0;
     left: .18rem;
