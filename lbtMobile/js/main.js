@@ -52,13 +52,7 @@
             //使网页恢复可滚
             $('html,body').removeClass('ovfHiden');
         });
-
-
-
-
     });
-
-
 
     var panDuan=function(){
     	$("html").css("font-size", document.documentElement.clientWidth / 375 * 312.5 + "%");
@@ -77,4 +71,12 @@
         pagination: {
             el: '.swiper-pagination',
         }
-     });
+    });
+    $(function(){
+        $("#jishuTab").find(".jishubox:first").show(); 
+        $("#jiShu a").on("mouseover",function() {
+            var index=$(this).index();
+            $(this).parent().next().find(".jishubox").hide().eq(index).show(); 
+            $(this).addClass("jishu_hover").siblings().removeClass("jishu_hover");
+        })
+    })
