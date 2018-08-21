@@ -61,6 +61,7 @@
         panDuan()
     });
     panDuan();
+    // 焦点图
     var swiper = new Swiper('#bannerSwiper .swiper-container', {
         autoplay: {
             delay: 3000,
@@ -72,6 +73,7 @@
             el: '.swiper-pagination',
         }
     });
+    // tab切换
     $(function(){
         $("#jishuTab").find(".jishubox:first").show(); 
         $("#jiShu a").on("mouseover",function() {
@@ -79,4 +81,4 @@
             $(this).parent().next().find(".jishubox").hide().eq(index).show(); 
             $(this).addClass("jishu_hover").siblings().removeClass("jishu_hover");
         })
-    })
+    });
