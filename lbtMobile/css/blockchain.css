@@ -1,0 +1,446 @@
+.block-cont{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: .18rem;
+    background: #FFF;
+}
+/*区块链项目服务*/
+.fuwuzc_ul{
+    width: 6.78rem;
+    padding:.36rem ;
+    padding-bottom: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.fuwuzc_ul li{
+    width: 3.04rem;
+    margin: .15rem;
+    padding: .3rem 0;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    display: block;
+    background: #FFF;
+    -moz-box-shadow:0px 0px .02rem #004ea1;
+    -webkit-box-shadow:0px 0px .02rem #004ea1;
+    box-shadow:0px 0px .02rem #004ea1;
+
+}
+.hideLi{
+    display: none;
+}
+.fuwuzc_ul li h1{
+    font-size: .22rem;
+    height: .6rem;
+    overflow: hidden;
+    color: #555;
+    font-weight: normal;
+    line-height: .6rem;
+}
+
+.fuwuzc_ul li .fuwuspan{
+    padding:30px 0 10px 0;
+    width: 100px;
+    display: inline-block;
+}
+.fuwuzc_ul li span{
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: .5rem;
+    font-size: .5rem;
+    color: #004ea1;
+    display: inline-block;
+    transition: all 0.8s;
+    border: 1px solid #004ea1;
+    -moz-box-shadow:0px 0px 1px #004ea1;
+    -webkit-box-shadow:0px 0px 1px #004ea1;
+    box-shadow:0px 0px 1px #004ea1;
+}
+.fuwuzc_ul li:hover{
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+}
+.fuwuzc_ul li:hover h1{
+    color: #004ea1;
+}
+.fuwuzc_ul li:hover p{
+    color: #0168d6;
+}
+.fuwuzc_ul li:hover span{
+    transform: scale(1.02) rotate(360deg);
+}
+/*白皮书*/
+.titleXinxi{
+    width: 6.78rem;
+    margin:.36rem;
+    padding-bottom: .16rem!important;
+    border-radius: .2rem;
+    padding-bottom: 0;
+    overflow: hidden;
+    -moz-box-shadow:0px 0px 10px rgba(0,0,0,.08);
+    -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.08);
+    box-shadow:0px 0px 10px rgba(0,0,0,.08);
+}
+.titleXinxi h1{
+    width:100%; 
+    overflow: hidden;
+    text-align: center;
+}
+.titleXinxi h1 span{
+    width:auto; 
+    display:inline-block !important; 
+    display:inline; 
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 .2rem;
+    font-size: .38rem;    
+    font-weight: normal;
+    position: relative;
+    margin: 0 auto;
+}
+.titleXinxi h1 span:after{
+    content: "";
+    width: 80%;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40%;
+    background: #9fa0a0;
+    position: absolute;
+    display: block;
+    background: #0068b7; 
+    background: -webkit-linear-gradient(left, #0068b7 ,  #00b7ac);
+    background: -o-linear-gradient(right, #0068b7,  #00b7ac); 
+    background: -moz-linear-gradient(right, #0068b7,  #00b7ac); 
+    background: linear-gradient(to right, #0068b7 ,  #00b7ac);
+}
+.titleXinxi p{
+    padding: .04rem .2rem;
+    color: #585858;
+    text-indent: 2em;
+}
+.xinxi_ullist{
+    width: 100%;
+    padding: .2rem 0 0;
+    overflow: hidden;
+}
+.xinxi_ullist li{
+    width: 2.72rem;
+    padding: .14rem;
+    height: 2.1rem;
+    margin: .19rem;
+    font-size: .26rem;
+    color: #585858;
+    border-radius: .06rem;
+    float: left;
+    -moz-box-shadow:0px 0px 10px rgba(0,0,0,.08);
+    -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.08);
+    box-shadow:0px 0px 10px rgba(0,0,0,.08);
+}
+.xinxi_ullist li span{
+    color: #000;
+}
+.ljgdBtn{
+    width: 162px;
+    height: 40px;
+    display: block;
+    margin: 20px auto 10px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align:center;
+    color: #0068b7;
+    border: 1px solid #0068b7;
+    border-radius: 20px;
+    transition:all 0.5s ease 0s;
+}
+.ljgdBtn:hover{
+    background:#0068b7; 
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.xinxi_imglist{
+    width: 6.78rem;
+    padding: 0 .1rem;
+    overflow: hidden;
+}
+.xinxi_imglist li{
+    width: 3rem;
+    margin: 0.14rem;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.xinxi_imglist li img{
+   width: 100%;
+   height: 100%;
+}
+.xinxi_imglist li h5{
+    width: 100%;
+    padding: .1rem 0;
+    font-size: .21rem;
+    text-align: center;
+    font-weight: normal;
+    position: absolute;
+    color: #FFF;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+/*代办证照申请业务*/
+.zzsq_ul{
+    width: 100%;
+    overflow: hidden;
+}
+.zzsq_ul li{
+    width: 3.2rem;
+    height: 3.3rem;
+    padding-top: 0.6rem;
+    margin: 0 .09rem;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.zzsq_ul li .zzsq_span{
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    line-height: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    background: #dfdede;
+    z-index: 1;
+  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+  -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.1s, background 0.2s;
+}
+.zzsq_ul li .zzsq_span img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #dfdede;
+    -moz-box-shadow:2px 2px 10px #c9c9c9;
+    -webkit-box-shadow:2px 2px 10px #c9c9c9;
+            box-shadow:2px 2px 10px #c9c9c9;
+    transition: all 0.8s;
+}
+.zzsq_ul li h5{
+    padding-top: .4rem;
+    font-size: .24rem;
+    color: #595757;
+}
+.zzsq_ul li img:hover{
+    transform: scale(1.02) rotate(360deg);
+
+}
+.zzsq_ul li .zzsq_span:after {
+  top: 10%;
+  left: 10%;
+  padding: 0;
+  z-index: -1;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.zzsq_ul li .zzsq_span:hover {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93);
+}
+.zzsq_ul li .zzsq_span:hover:after {
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+  -moz-animation: sonarEffect 1.3s ease-out 75ms;
+  animation: sonarEffect 1.3s ease-out 75ms;
+}
+
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b7b5b6, 0 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b7b5b6, 0 0 0 10px rgba(255, 255, 255, 0.3);
+    -webkit-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@-moz-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b7b5b6, 0 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b7b5b6, 0 0 0 10px rgba(255, 255, 255, 0.3);
+    -moz-transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b7b5b6, 0 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b7b5b6, 0 0 0 10px rgba(255, 255, 255, 0.3);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.jiaoyi_imglist{
+    width: 6.78rem;
+    overflow: hidden;
+}
+.jiaoyi_imglist li{
+    width: 1.54rem;
+    margin: .05rem;
+    padding-top: .1rem;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    transition: all 0.5s;
+}
+.jiaoyi_imglist li img{
+    margin: .2rem 0;
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
+.jiaoyi_imglist li h5{
+    text-align: center; 
+    color: #595757;
+    padding: .1rem 0;
+    font-weight: normal;
+    font-size: .28rem;
+    background: #f9f9f9;
+}
+.jiaoyi_imglist li:hover{
+    transform:translateY(0) scale(1.05);
+    -moz-box-shadow:2px 2px 10px #c9c9c9;
+    -webkit-box-shadow:2px 2px 10px #c9c9c9;
+            box-shadow:2px 2px 10px #c9c9c9;
+}
+
+.media_imglist{
+    width: 1160px;
+    height: 207px;
+    padding: 60px 0 40px 28px;
+}
+.media_imglist li{
+    width: 318px;
+    height: 197px;
+    margin: 0 30px;
+    position: relative;
+    float: left;
+    display: block;
+    border:1px solid #d7d5d5;
+}
+.media_imglist li p{
+    width: 318px;
+    height: 197px;
+    padding: 0;
+    overflow: hidden;
+}
+.media_imglist li img{
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+    transition: all 0.5s;
+}
+.media_imglist li img:hover{
+    transform:translateY(0) scale(1.1);
+}
+.media_imglist li h5{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    text-align: center;
+    background: #FFF;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    display:table;
+    margin-left: -55px;
+    -moz-box-shadow:0px 0px 10px #b4dcfa;
+    -webkit-box-shadow:0px 0px 10px #b4dcfa;
+            box-shadow:0px 0px 10px #b4dcfa;
+
+  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+  -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.1s, background 0.2s;
+}
+.media_imglist li h5 span{
+    display:table-cell;
+    vertical-align:middle;
+    font-size: 18px;
+    color: #0068b7;
+}
+.media_imglist li h5:after {
+  top: 10%;
+  left: 10%;
+  padding: 0;
+  z-index: -1;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.media_imglist:hover li h5 {
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+.media_imglist li:hover h5:after {
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+  -moz-animation: sonarEffect 1.3s ease-out 75ms;
+  animation: sonarEffect 1.3s ease-out 75ms;
+}

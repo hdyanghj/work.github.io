@@ -393,7 +393,14 @@ html {
 }
 
 /******************************** 【 导航部分 END 】 ********************************************/
-
+/******************************** 【 主体部分 】 ************************************************/
+.main{
+    width: 7.5rem;
+    background: #f6f7fb;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1.16rem;
+}
 /*标题*/
 .tiele-cont{
     width: 100%;
@@ -434,7 +441,38 @@ html {
     border-left: 0;
     border-right: 0;
 }
-
+/*二级页面标题*/
+.news_title{
+    width: 100%;
+    background: #efefef;
+    text-align: center;
+    height: .4rem;
+    overflow: hidden;
+    padding: .2rem 0;
+}
+.news_title h3{
+    width: auto;
+    height: .4rem;
+    padding: 0 .2rem;
+    display: inline-block!important;
+    display: inline;
+    font-size: .34rem;
+    font-weight: normal;
+    vertical-align: top;
+    position: relative;
+}
+.newsTitleLt,.newsTitleGt{
+    width: .6rem;
+    top: .1rem;
+    position: absolute;
+    display: block;
+}
+.newsTitleLt{
+left: -.6rem;
+}
+.newsTitleGt{
+    right: -.6rem;
+}
 /*背景颜色*/
 .baise{
     background: #FFF!important;
@@ -560,10 +598,32 @@ html {
     color: #FFF;
 }
 
-
-
-
-
+/*展开查看更多*/
+.zhankai{
+    width: 100%;
+    padding: .1rem 0;
+    text-align: center;
+    line-height: .5rem;
+    display: block;
+    background: #efefef;
+}
+.zhankai i{
+    display: inline-block; 
+    -webkit-animation-name: rubberBand;
+            animation-name: rubberBand;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+.zhankai-show{
+    display: block!important;
+}
+.zhankai-hide{
+    display: none!important;
+}
 
 
 

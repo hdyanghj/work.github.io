@@ -52,6 +52,18 @@
             //使网页恢复可滚
             $('html,body').removeClass('ovfHiden');
         });
+        // 区块链
+        $('#bannerSwiper .zhankai').on('click',function(){
+            if (!$('.hideLi').hasClass('zhankai-show')) {
+                $('.hideLi').addClass('zhankai-show');
+                $('.hideLi').removeClass('zhankai-hide');
+
+            }else{
+                $('.hideLi').addClass('zhankai-hide');
+                $('.hideLi').removeClass('zhankai-show');
+
+            }
+        });
     });
 
     var panDuan=function(){

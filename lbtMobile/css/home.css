@@ -1,11 +1,4 @@
 /******************************** 【 主体部分 】 ************************************************/
-.main{
-    width: 7.5rem;
-    background: #f6f7fb;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 1.16rem;
-}
 /*分类*/
 .sort-cont{
     width: 100%;
@@ -425,40 +418,7 @@
     line-height: .5rem;
 }
 
-
-
 /*新闻列表页*/
-.news_title{
-    width: 100%;
-    background: #efefef;
-    text-align: center;
-    height: .4rem;
-    overflow: hidden;
-    padding: .2rem 0;
-}
-.news_title h3{
-    width: auto;
-    height: .4rem;
-    padding: 0 .2rem;
-    display: inline-block!important;
-    display: inline;
-    font-size: .34rem;
-    font-weight: normal;
-    vertical-align: top;
-    position: relative;
-}
-.newsTitleLt,.newsTitleGt{
-    width: .6rem;
-    top: .1rem;
-    position: absolute;
-    display: block;
-}
-.newsTitleLt{
-left: -.6rem;
-}
-.newsTitleGt{
-    right: -.6rem;
-}
 
 .news-cont .product_tab{
     width: 100%;
@@ -514,6 +474,65 @@ left: -.6rem;
 .load_more a:hover{
     color: #FFF;
     background: #cf0f32;
+}
+/*新闻内容*/
+.newsContB{
+    padding-top: 1rem;
+}
+.newsCont{
+    width: 6.78rem;
+    padding:0 .36rem ;
+    padding-bottom: 0;
+    overflow: hidden;
+    min-height: 8rem;
+}
+.newsCont h1{
+    font-size: .28rem;
+    text-align: center;
+    padding: .2rem 0 ;
+}
+.newsCont .newsDate{
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    font-size: .24rem;
+    padding: .1rem 0;
+    color: #525252;
+        border-top: .01rem solid #e0e0e0;
+    border-bottom: .01rem solid #e0e0e0;
+}
+.newsCont .newsDate i{
+    color: #525252;
+    font-size: .28rem;
+}
+.newsCont p{
+    text-indent: 2em;
+    font-size: .26rem;
+    line-height: .5rem;
+    text-align: left;
+    padding: .1rem 0;
+    color: #525252;
+}
+.newsContBottom{
+    width: 100%;
+    line-height: .4rem;
+    padding-bottom: .2rem;
+}
+.newsContBottom .shangxia{
+    font-size: .28rem;
+    line-height: .3rem;
+}
+.newsContBottom h4{
+    color: #454545;
+    padding: .3rem 0 .2rem;
+}
+.newsContBottom h5{
+    color: #525252;
+    font-size: .26rem;
+}
+.newsContBottom h5 a{
+    color: #525252;
+    font-size: .24rem;
 }
 /*品质服务*/
 #bBgimg{
@@ -826,136 +845,3 @@ left: -.6rem;
     font-size: .18rem;
 }
 
-/*区块链项目服务*/
-.fuwuzc_ul{
-    width: 6.78rem;
-    padding:.36rem ;
-    padding-bottom: 0;
-    overflow: hidden;
-}
-.fuwuzc_ul li{
-    width: 1.54rem;
-    margin: .05rem;
-    padding-top: .1rem;
-    float: left;
-    cursor: pointer;
-    text-align: center;
-    border-radius: 6px;
-    display: block;
-    background: #FFF;
-    border: 1px solid transparent;
-
-}
-.fuwuzc_ul li h1{
-    font-size: .22rem;
-    height: .6rem;
-    overflow: hidden;
-    color: #555;
-    font-weight: normal;
-    line-height: .6rem;
-}
-
-.fuwuzc_ul li .fuwuspan{
-    padding:30px 0 10px 0;
-    width: 100px;
-    display: inline-block;
-}
-.fuwuzc_ul li span{
-    width: 1rem;
-    height: 1rem;
-    line-height: 1rem;
-    border-radius: .5rem;
-    font-size: .5rem;
-    color: #004ea1;
-    display: inline-block;
-    transition: all 0.8s;
-    border: 1px solid #004ea1;
-    -moz-box-shadow:0px 0px 1px #004ea1;
-    -webkit-box-shadow:0px 0px 1px #004ea1;
-    box-shadow:0px 0px 1px #004ea1;
-}
-.fuwuzc_ul li:hover{
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,.05);
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.05);
-    box-shadow: 0 0 10px rgba(0,0,0,.05);
-}
-.fuwuzc_ul li:hover h1{
-    color: #004ea1;
-}
-.fuwuzc_ul li:hover p{
-    color: #0168d6;
-}
-.fuwuzc_ul li:hover span{
-    transform: scale(1.02) rotate(360deg);
-}
-/*白皮书*/
-.titleXinxi{
-    width: 6.78rem;
-    margin:.36rem;
-    padding-bottom: .16rem!important;
-    border-radius: .2rem;
-    padding-bottom: 0;
-    overflow: hidden;
-    -moz-box-shadow:0px 0px 10px rgba(0,0,0,.08);
-    -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.08);
-    box-shadow:0px 0px 10px rgba(0,0,0,.08);
-}
-.titleXinxi h1{
-    width:100%; 
-    overflow: hidden;
-    text-align: center;
-}
-.titleXinxi h1 span{
-    width:auto; 
-    display:inline-block !important; 
-    display:inline; 
-    height: 1rem;
-    line-height: 1rem;
-    padding: 0 .2rem;
-    font-size: .38rem;    
-    font-weight: normal;
-    position: relative;
-    margin: 0 auto;
-}
-.titleXinxi h1 span:after{
-    content: "";
-    width: 80%;
-    height: 4px;
-    bottom: 0;
-    left: 50%;
-    margin-left: -40%;
-    background: #9fa0a0;
-    position: absolute;
-    display: block;
-    background: #0068b7; 
-    background: -webkit-linear-gradient(left, #0068b7 ,  #00b7ac);
-    background: -o-linear-gradient(right, #0068b7,  #00b7ac); 
-    background: -moz-linear-gradient(right, #0068b7,  #00b7ac); 
-    background: linear-gradient(to right, #0068b7 ,  #00b7ac);
-}
-.titleXinxi p{
-    padding: .04rem .2rem;
-    color: #585858;
-    text-indent: 2em;
-}
-.xinxi_ullist{
-    width: 100%;
-    padding: .2rem 0 0;
-    overflow: hidden;
-}
-.xinxi_ullist li{
-    width: 2.72rem;
-    padding: .14rem;
-    height: 2.1rem;
-    margin: .19rem;
-    font-size: .26rem;
-    color: #585858;
-    border-radius: .06rem;
-    float: left;
-    -moz-box-shadow:0px 0px 10px rgba(0,0,0,.08);
-    -webkit-box-shadow:0px 0px 10px rgba(0,0,0,.08);
-    box-shadow:0px 0px 10px rgba(0,0,0,.08);
-}
-.xinxi_ullist li span{
-    color: #000;
-}
