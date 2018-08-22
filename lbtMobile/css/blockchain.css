@@ -382,7 +382,6 @@
     overflow: hidden;
     float: left;
     display: block;
-    border:.01rem solid #d7d5d5;
 }
 .media_imglist li p{
     width: 100%;
