@@ -153,7 +153,9 @@
 .home_banner .swiper-slide{
     overflow: hidden;
     background: #FFF;
-    border-bottom: 0;
+    -moz-box-shadow:0px 0px 6px #a6a4a4;
+    -webkit-box-shadow:0px 0px 6px #a6a4a4;
+    -ms-box-shadow:0px 0px 6px #a6a4a4;
 }
 .home_banner .swiper-slide a{
     padding: .16rem;
@@ -165,7 +167,7 @@
 }
 .home_banner .swiper-pagination{
     height:  0.28rem!important;
-    bottom: 1.52rem!important;
+    bottom: 2.32rem!important;
     line-height:0rem!important;
 }
 .home_banner .swiper-pagination .swiper-pagination-bullet{
