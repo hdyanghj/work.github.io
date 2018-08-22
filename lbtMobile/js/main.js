@@ -89,6 +89,22 @@
             el: '.swiper-pagination',
         }
     });
+    // 首页焦点图
+    var homeswiper = new Swiper('#homeBanner .swiper-container', {
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        loop : true,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
+    });
     // tab切换
     $(function(){
         $("#jishuTab").find(".jishubox:first").show(); 
@@ -98,4 +114,3 @@
             $(this).addClass("jishu_hover").siblings().removeClass("jishu_hover");
         })
     });
-    

@@ -338,6 +338,7 @@
 .jiaoyi_imglist{
     width: 6.78rem;
     overflow: hidden;
+    padding-left: .1rem;
 }
 .jiaoyi_imglist li{
     width: 1.54rem;
@@ -373,7 +374,7 @@
 .media_imglist{
     width: 6.78rem;
     overflow: hidden;
-    padding-top: .2rem;
+    padding: .2rem 0 0 .04rem;
 }
 .media_imglist li{
     width: 2.03rem;
@@ -502,4 +503,17 @@
     padding: .2rem!important;
     font-size: .26rem;
     line-height: .4rem;
+}
+.blockEtext{
+    width: 6.6rem;
+    text-indent: 2em;
+    line-height: .44rem;
+    padding: .18rem;
+    font-size: .28rem;
+    color: #525252;
+    margin: .26rem auto 0;
+    border:.1px solid #CCC;
+    -moz-box-shadow:.01rem .01rem .04rem #525252;
+    -webkit-box-shadow:.01rem .01rem .04rem #525252;
+            box-shadow:.01rem .01rem .04rem #525252;
 }

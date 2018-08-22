@@ -323,13 +323,13 @@ html {
     font-weight: normal;
 }
 /*箭头靠右*/
-.biticon-right{
+.btniconr{
     float: right;
     margin-right: 20px;
     font-size: 0.25rem!important;
     transition: transform .3s;
 }
-.nav-list.nav-show .biticon-right{
+.nav-list.nav-show .btniconr{
     transform: rotate(90deg);
 }
 /*导航二级列表*/
@@ -404,42 +404,60 @@ html {
 /*标题*/
 .tiele-cont{
     width: 100%;
-    height: 0.46rem;
-    padding: 0.36rem 0;
-    display：flex;
+    padding:.1rem 0 0;
+    line-height: .42rem;
+    display:block;
+    overflow: hidden;
+    text-align: center;
 }
 .tiele-cont h2{
     padding: 0 0.36rem;
     font-weight: normal;
-    float: left;
-}
-.tiele-cont h2 span{
-    margin-left: 0.36rem;
+    font-size: .38rem!important;
+    width: auto;
+    display: inline;
     position: relative;
-    display: inline-block;
-    color: #434343;
+    display: inline-block!important;
+
 }
-.tiele-cont h2 span i{
-    width: 1px;
-    height: 0.34rem;
-    left: -0.16rem;
-    top: -0.04rem;
+.tiele-cont h2:before,.tiele-cont h2:after{
+    width:  7rem;
+    height: .01rem;
+    content: "";
+    top: 50%;
+    background: #ccc;
     position: absolute;
     display: block;
-    background: #434343;
-    transform:rotate(25deg);
-    -ms-transform:rotate(25deg);
-    -moz-transform:rotate(25deg);
-    -webkit-transform:rotate(25deg);
-    -o-transform:rotate(25deg);
 }
-.tiele-cont .zhongx{
-    height: 0.1rem;
-    flex: 1;
-    margin-top: 0.2rem;
-    border: 1px solid #d7d7d7;
-    border-left: 0;
-    border-right: 0;
+.tiele-cont h2:before{
+    left: -7rem;
+}
+.tiele-cont h2:after{
+    right: -7rem;
+}
+..tiele-cont h2 span{
+    width: 100%;
+    display: inline-block;
+}
+.tiele-cont h2 span:before,.tiele-cont h2 span:after{
+    width:  .1rem;
+    height: .1rem;
+    content: "";
+    top: 50%;
+    margin-top: -.05rem;
+    border-radius: 50%;
+    background: #3395e1;
+    position: absolute;
+    display: block;
+}
+.tiele-cont h2 span:before{
+    left: -0rem;
+}
+.tiele-cont h2 span:after{
+    right: -0rem;
+}
+.tiele-cont h3{
+    color: #adcef0;
 }
 /*二级页面标题*/
 .news_title{
@@ -601,7 +619,7 @@ left: -.6rem;
 /*展开查看更多*/
 .zhankai{
     width: 100%;
-    padding: .1rem 0;
+    padding: .2rem 0;
     text-align: center;
     line-height: .5rem;
     display: block;
