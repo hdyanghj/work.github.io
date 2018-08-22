@@ -57,10 +57,14 @@
             if (!$('.hideLi').hasClass('zhankai-show')) {
                 $('.hideLi').addClass('zhankai-show');
                 $('.hideLi').removeClass('zhankai-hide');
+                $('.zhankai i').addClass('biticon-shouqi');
+                $('.zhankai i').removeClass('biticon-zhankai');
 
             }else{
                 $('.hideLi').addClass('zhankai-hide');
                 $('.hideLi').removeClass('zhankai-show');
+                $('.zhankai i').addClass('biticon-zhankai');
+                $('.zhankai i').removeClass('biticon-shouqi');
 
             }
         });
@@ -94,3 +98,4 @@
             $(this).addClass("jishu_hover").siblings().removeClass("jishu_hover");
         })
     });
+    

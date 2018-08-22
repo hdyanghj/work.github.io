@@ -8,7 +8,6 @@
 .fuwuzc_ul{
     width: 7.18rem;
     padding:.16rem ;
-    padding-bottom: 0;
     overflow: hidden;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -47,12 +46,12 @@
     display: none;
 }
 .fuwuzc_ul li h1{
-    font-size: .28rem;
-    height: .6rem;
+    font-size: .38rem;
+    height: .8rem;
     overflow: hidden;
     color: #555;
     font-weight: normal;
-    line-height: .6rem;
+    line-height: .8rem;
 }
 
 .fuwuzc_ul li .fuwuspan{
@@ -61,11 +60,11 @@
     display: inline-block;
 }
 .fuwuzc_ul li span{
-    width: 1rem;
-    height: 1rem;
-    line-height: 1rem;
-    border-radius: .5rem;
-    font-size: .5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.3rem;
+    border-radius: .6rem;
+    font-size: .56rem;
     color: #004ea1;
     display: inline-block;
     transition: all 0.8s;
@@ -138,6 +137,7 @@
     color: #585858;
     text-indent: 2em;
 }
+/*系统部署*/
 .xinxi_ullist{
     width: 100%;
     padding: .2rem 0 0;
@@ -177,6 +177,7 @@
     color:#FFFFFF;
     text-decoration: none;
 }
+/*智能合约搭建*/
 .xinxi_imglist{
     width: 6.78rem;
     padding: 0 .1rem;
@@ -333,7 +334,7 @@
     opacity: 0;
   }
 }
-
+/*交易市场上架*/
 .jiaoyi_imglist{
     width: 6.78rem;
     overflow: hidden;
@@ -368,24 +369,23 @@
     -webkit-box-shadow:2px 2px 10px #c9c9c9;
             box-shadow:2px 2px 10px #c9c9c9;
 }
-
+/*媒介宣传*/
 .media_imglist{
-    width: 1160px;
-    height: 207px;
-    padding: 60px 0 40px 28px;
+    width: 6.78rem;
+    overflow: hidden;
+    padding-top: .2rem;
 }
 .media_imglist li{
-    width: 318px;
-    height: 197px;
-    margin: 0 30px;
+    width: 2.03rem;
+    margin: .1rem;
     position: relative;
+    overflow: hidden;
     float: left;
     display: block;
-    border:1px solid #d7d5d5;
+    border:.01rem solid #d7d5d5;
 }
 .media_imglist li p{
-    width: 318px;
-    height: 197px;
+    width: 100%;
     padding: 0;
     overflow: hidden;
 }
@@ -399,61 +399,108 @@
     transform:translateY(0) scale(1.1);
 }
 .media_imglist li h5{
-    width: 110px;
-    height: 110px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     text-align: center;
     background: #FFF;
     position: absolute;
-    top: -55px;
+    top: 50%;
     left: 50%;
     display:table;
-    margin-left: -55px;
-    -moz-box-shadow:0px 0px 10px #b4dcfa;
-    -webkit-box-shadow:0px 0px 10px #b4dcfa;
-            box-shadow:0px 0px 10px #b4dcfa;
-
-  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
-  -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
-  transition: transform ease-out 0.1s, background 0.2s;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+    -moz-box-shadow:0px 0px .8rem #ccc;
+    -webkit-box-shadow:0px 0px .8rem #ccc;
+            box-shadow:0px 0px .8rem #ccc;
 }
 .media_imglist li h5 span{
     display:table-cell;
     vertical-align:middle;
-    font-size: 18px;
-    color: #0068b7;
+    font-size: .22rem;
+    color: #004ea1;
 }
-.media_imglist li h5:after {
-  top: 10%;
-  left: 10%;
-  padding: 0;
-  z-index: -1;
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  border-radius: 50%;
-  content: '';
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  display: block;
-  -webkit-font-smoothing: antialiased;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
-  opacity: 0;
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
+/*支持媒介*/
+.medium_imglist{
+    width: 6.78rem;
+    padding-top: .2rem;
+    overflow: hidden;
 }
-
-.media_imglist:hover li h5 {
-  -webkit-transform: scale(0.96);
-  -moz-transform: scale(0.96);
-  -ms-transform: scale(0.96);
-  transform: scale(0.96);
+.medium_imglist li{
+    width: 2.05rem;
+    margin: .1rem;
+    background: #282828;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    display: block;
 }
-.media_imglist li:hover h5:after {
-  -webkit-animation: sonarEffect 1.3s ease-out 75ms;
-  -moz-animation: sonarEffect 1.3s ease-out 75ms;
-  animation: sonarEffect 1.3s ease-out 75ms;
+.medium_imglist li img{ 
+    width: 100%;
+    margin:0 auto;
+}
+.medium_img_hover{ 
+    position:absolute; 
+    left:0; 
+    top:0; 
+    width:100%; 
+    height:100%; 
+    opacity:0; 
+    transform:scale(2); 
+    transition:all 0.4s ease 0s;
+}
+.medium_imglist li:hover .medium_img_hover{ 
+    opacity:1; 
+    transform:scale(1);
+}
+/*运营、空投、规避*/
+.operation_imglist{
+    width: 6.78rem;
+    padding-top: .2rem;
+    overflow: hidden;
+}
+.operation_imglist li{
+    width: 2.05rem;
+    margin: .1rem;
+    position: relative;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.operation_imglist li h5{
+    width: 100%;
+    height: .8rem;
+    text-align: center;
+    font-weight: normal;
+}
+.operation_imglist li h5 span{
+    width: 2.05rem;
+    height: .8rem;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    font-size: .24rem;
+    font-weight: normal;
+    color: #595757;
+}
+.operation_imglist li .spanImg{
+    width: .8rem;
+    height: .8rem;
+    padding: .3rem 0;
+    display: inline-block;
+}
+.operation_imglist li span img{
+    width: .8rem;
+    height: .8rem;
+    display: block;
+    transition: all 0.5s;
+}
+.operation_imglist li span img:hover{
+    transform:translateY(0) scale(1.2);
+}
+.zzblfwT{
+    padding: .2rem!important;
+    font-size: .26rem;
+    line-height: .4rem;
 }
