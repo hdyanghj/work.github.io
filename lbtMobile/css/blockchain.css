@@ -6,8 +6,8 @@
 }
 /*区块链项目服务*/
 .fuwuzc_ul{
-    width: 6.78rem;
-    padding:.36rem ;
+    width: 7.18rem;
+    padding:.16rem ;
     padding-bottom: 0;
     overflow: hidden;
     -webkit-transition: all 1s;
@@ -16,7 +16,7 @@
     transition: all 1s;
 }
 .fuwuzc_ul li{
-    width: 3.04rem;
+    width: 3.28rem;
     margin: .15rem;
     padding: .3rem 0;
     float: left;
@@ -28,13 +28,26 @@
     -moz-box-shadow:0px 0px .02rem #004ea1;
     -webkit-box-shadow:0px 0px .02rem #004ea1;
     box-shadow:0px 0px .02rem #004ea1;
-
+}
+.fuwuzc_ul li:hover{
+    width: 3.28rem;
+    margin: .15rem;
+    padding: .3rem 0;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 6px;
+    display: block;
+    background: #FFF;
+    -moz-box-shadow:0px 0px .08rem #004ea1;
+    -webkit-box-shadow:0px 0px .08rem #004ea1;
+    box-shadow:0px 0px .08rem #004ea1;
 }
 .hideLi{
     display: none;
 }
 .fuwuzc_ul li h1{
-    font-size: .22rem;
+    font-size: .28rem;
     height: .6rem;
     overflow: hidden;
     color: #555;
