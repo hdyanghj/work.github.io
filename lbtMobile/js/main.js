@@ -96,6 +96,9 @@
             stopOnLastSlide: false,
             disableOnInteraction: true,
         },
+        speed: 600,
+        parallax: true,
+
         loop : true,
         pagination: {
             el: '.swiper-pagination',
