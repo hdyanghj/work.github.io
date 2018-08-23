@@ -145,7 +145,7 @@
 .home_banner .swiper-container{
     width: 6.78rem;
     margin:.36rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
 }
 .home_banner .swiper-container .swiper-wrapper{
     width: 6.4rem;
@@ -167,7 +167,7 @@
 }
 .home_banner .swiper-pagination{
     height:  0.28rem!important;
-    bottom: 2.32rem!important;
+    bottom: 2.52rem!important;
     line-height:0rem!important;
 }
 .home_banner .swiper-pagination .swiper-pagination-bullet{
@@ -194,7 +194,7 @@
     line-height: .8rem;
     text-align: center;
     background: #bfbfbf;
-    margin-top: 2rem;
+    margin-top: 2.1rem;
 }
 .home_banner .swiper-button-next i,.home_banner .swiper-button-prev i{
     width: .8rem;
@@ -219,9 +219,19 @@
     background: #3395e1;
 }
 .hbmoer{
-    height: 1rem;
+    height: .9rem;
+    position: absolute;
+    bottom: 0;
 }
 .hbmoer a{
+    width: 4.6rem;
+    height: .8rem;
+    display: block;
+    border:1px solid #3395e1;
+    border-radius: .4rem;
+    text-align: center;
+    line-height: .8rem;
+    color: #3395e1;
     vertical-align: top;
 }
 /*分类*/
