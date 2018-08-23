@@ -413,7 +413,7 @@ html {
 .tiele-cont h2{
     padding: 0 0.36rem;
     font-weight: normal;
-    font-size: .48rem!important;
+    font-size: .38rem!important;
     width: auto;
     display: inline;
     position: relative;
@@ -435,9 +435,9 @@ html {
 .tiele-cont h2:after{
     right: -7rem;
 }
-..tiele-cont h2 span{
+.tiele-cont h2 span{
     width: 100%;
-    display: inline-block;
+    font-size: .32rem!important;
 }
 .tiele-cont h2 span:before,.tiele-cont h2 span:after{
     width:  .1rem;
