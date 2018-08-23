@@ -53,7 +53,7 @@
             $('html,body').removeClass('ovfHiden');
         });
         // 区块链
-        $('#bannerSwiper .zhankai').on('click',function(){
+        $('.zhankai').on('click',function(){
             if (!$('.hideLi').hasClass('zhankai-show')) {
                 $('.hideLi').addClass('zhankai-show');
                 $('.hideLi').removeClass('zhankai-hide');
@@ -67,6 +67,27 @@
                 $('.zhankai i').removeClass('biticon-shouqi');
 
             }
+        });
+        // APP
+        $('#moreBtnt').on('click',function(){
+            if (!$('.moretag').hasClass('zhankai-show')) {
+                $('.moretag').addClass('zhankai-show');
+                $('.moretag').removeClass('zhankai-hide');
+                $('#moretagBg').addClass('zhankai-show');
+                $('#moretagBg').removeClass('zhankai-hide');
+
+            }else{
+                $('.moretag').addClass('zhankai-hide');
+                $('.moretag').removeClass('zhankai-show');
+                $('#moretagBg').addClass('zhankai-hide');
+                $('#moretagBg').removeClass('zhankai-show');
+            }
+        });
+        $('#moretagBg').on('click',function(){
+            $('.moretag').addClass('zhankai-hide');
+            $('.moretag').removeClass('zhankai-show');
+            $('#moretagBg').addClass('zhankai-hide');
+            $('#moretagBg').removeClass('zhankai-show');
         });
     });
 

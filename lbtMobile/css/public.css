@@ -617,7 +617,7 @@ left: -.6rem;
 }
 
 /*展开查看更多*/
-.zhankai{
+.zhankai,.jiazai{
     width: 100%;
     padding: .2rem 0;
     text-align: center;
